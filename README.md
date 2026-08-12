@@ -85,6 +85,7 @@ To update Octopus Files to the latest version available on GitHub:
 
 ```bash
 pipx reinstall octopus-files
+```
 
 ## Features
 
