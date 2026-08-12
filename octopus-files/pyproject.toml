@@ -1,8 +1,0 @@
-[project]
-name = "octopus-files"
-version = "0.1.0"
-description = "A versatile command-line toolkit for managing and organizing files."
-requires-python = ">=3.9"
-
-[project.scripts]
-octopus-files = "octopus_files.cli:main"
