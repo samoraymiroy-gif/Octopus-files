@@ -17,6 +17,12 @@ def main():
         default=str(Path.home() / "Downloads"), # في حالة كان الأمر اختياريا سيتم اختيار مجلد التنزيلات بشكل افتراضي
         help="File counter" # وصف لوظيفة الأمر 
         )
+# لرؤية الإصدار
+    parser.add_argument(
+        "--version", # الأمر
+        action="version", # يعطي الإصدار 
+        version="octopus-files 0.1.0" # يطبع إسم الاصدار
+        )
 
     args = parser.parse_args() # قراءة أوامر المستخدم
 
